@@ -1,31 +1,60 @@
-# 🧠 AI Interviewer
+# 🤖 AI Interviewer
 
-An **AI-powered interview application** built with the **T3 Stack**, designed to simulate real-world technical interviews using an AI avatar. It evaluates candidates based on **confidence**, **fluency**, and **technical knowledge**, providing personalized assessments based on their performance.
+An interactive AI-powered interview web app built with the **T3 Stack**, designed to simulate real interviews through an AI avatar. It evaluates candidates based on **confidence**, **fluency**, and **technical understanding**, giving personalized feedback and insights — just like a real interview panel.
 
 ---
 
-## 🚀 Features
+## 📸 Screenshots
 
-- 📝 Upload your resume and get started instantly  
-- 🗣️ Real-time AI avatar conducting the interview  
-- 📊 Automated scoring based on:
+
+### 🖼️ Landing Page 
+![Assessment Screen](landingpage.jpeg)
+
+
+### 🖼️ Interview in Progress  
+![Interview Screen](interviewpage.jpeg)
+
+
+
+---
+
+## ✨ Features
+
+- 🧠 **AI-Driven Interview**: Upload your resume and face real-time questions from an AI avatar.
+- 🎙️ **Voice Input + Emotion Detection**: The app uses voice analysis and emotional cues to assess how confidently you speak.
+- 📄 **Custom Assessments**: Get feedback on:
   - Confidence
-  - Communication fluency
-  - Technical accuracy
-- 📥 Assessment reports with personalized feedback  
-- 📹 Emotion & voice analysis (powered by HumeAI & Deepgram)  
-- 🔐 Authentication powered by Clerk  
-- 🌐 Clean, modern UI with animations and 3D integrations  
+  - Fluency
+  - Technical skill
+- 🎓 **Tailored Questions**: The AI adapts based on your resume to ask relevant questions.
+- 🧾 **Report Card**: Visual breakdown of performance and recommendations.
+- 🌐 **Authentication**: Seamless login/signup powered by Clerk.
+- 🖼️ **3D AI Avatar**: Realistic avatar using Heygen, React Three Fiber, and HumeAI for expressive interaction.
+- ⚡ **Fast, Private & Realistic**: Built with privacy and user experience in mind.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React, Next.js, TailwindCSS, NextUI, Framer Motion  
-- **Backend:** tRPC, Prisma, NextAuth, PostgreSQL  
-- **AI/Voice:** OpenAI, Deepgram, HumeAI, Heygen  
-- **3D/Avatar:** React Three Fiber, Drei  
-- **State Management:** Zustand, React Query  
-- **Auth:** Clerk, NextAuth  
-- **Deployment:** Vercel (recommended)  
+- **Frontend**: Next.js, Tailwind CSS, React Three Fiber, NextUI, Zustand  
+- **Backend**: tRPC, Prisma, NextAuth  
+- **AI & Voice**: OpenAI, Gemini, Deepgram, HumeAI  
+- **Auth**: Clerk  
+- **3D Avatar**: Heygen, Drei  
+- **Visualization**: Nivo Charts  
+
+---
+
+## 🚀 How It Works
+
+1. 📄 Upload your resume (PDF/text).
+2. 🧑‍💼 The AI avatar starts asking interview questions tailored to your background.
+3. 🎙️ You respond via microphone; voice and facial expression analysis runs in real-time.
+4. 📊 At the end, receive a performance breakdown and feedback.
+5. 🔁 Use insights to prepare better for real interviews.
+
+---
+
+
+
 
